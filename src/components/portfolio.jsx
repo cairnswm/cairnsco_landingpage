@@ -5,14 +5,14 @@ import PortfolioCard from "./portfoliocard";
 const Portfolio = ({ onShowMore }) => {
   const portfolioItems = [
     {
-      image: "/images/juzt-dance.jpg",
+      image: "./images/juzt-dance.jpg",
       title: "Juzt Dance",
       description: "Bringing the dance community together to celebrate movement and art.",
       projectUrl: "https://demo.juzt.dance",
       moreContent: "Juzt Dance is a platform that unites the dance community, offering tools and resources to enhance the art of dance.<br/>Selling tickets for events, implementing loyalty systems for venues."
     },
     {
-      image: "/images/workflowcanvas.jpg",
+      image: "./images/workflowcanvas.jpg",
       title: "WorkflowCanvas",
       description: "A revolutionary project management and workflow visualization tool. Built by hand, with assistance from AI",
       projectUrl: "https://cairns.co.za/workflowcanvas/",
@@ -20,14 +20,14 @@ const Portfolio = ({ onShowMore }) => {
       moreContent: "WorkflowCanvas is an AI-driven tool that simplifies project management and workflow visualization, enhancing team productivity."
     },
     {
-      image: "/images/kanban-board.jpg",
+      image: "./images/kanban-board.jpg",
       title: "Kanban Board",
       description: "An intuitive agile project management tool ready for integration into any project tool (react).",
       githubUrl: "https://github.com/cairnsgames/IssueBoard",
       moreContent: "The Kanban Board is an AI-enhanced tool that streamlines agile project management, improving team collaboration and efficiency."
     },
     {
-      image: "/images/postermaker.jpg",
+      image: "./images/postermaker.jpg",
       title: "PosterMaker",
       description: "Effortlessly create stunning posters with our simple to use design wizard.",
       projectUrl: "https://cairns.co.za/postermaker/",
@@ -35,7 +35,7 @@ const Portfolio = ({ onShowMore }) => {
       moreContent: "PosterMaker is an intuitive AI-powered tool that allows users to create visually appealing posters with ease."
     },
     {
-      image: "/images/aicvbuilder.jpg",
+      image: "./images/aicvbuilder.jpg",
       title: "AICVBuilder",
       description: "Generate custom CVs with intelligent AI-driven resume design and content.",
       projectUrl: "https://cairns.co.za/aicvbuilder/",
@@ -43,13 +43,13 @@ const Portfolio = ({ onShowMore }) => {
       moreContent: "AICVBuilder leverages AI to help users create professional and personalized CVs effortlessly. Upload your CV, upload the job spec, get a customized CV targetting that job spec."
     },
     {
-      image: "/images/brtools.jpg",
+      image: "./images/brtools.jpg",
       title: "BRTools",
       description: "Tools to assist managers of the Blackout Rugby Classic Management game.",
       moreContent: "BRTools provides essential utilities and analytics for Blackout Rugby Classic managers, helping them make data-driven decisions and optimize team performance."
     },
     {
-      image: "/images/comingsoon.jpg",
+      image: "./images/comingsoon.jpg",
       title: "Location Marking",
       description: "Track locations using GPS points with seamless photo integration.",
       moreContent: "Location Marking is a tool that allows users to track and document locations using GPS and photo integration."
