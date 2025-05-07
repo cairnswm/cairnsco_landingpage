@@ -4,12 +4,28 @@ import PortfolioCard from "./portfoliocard";
 
 const Portfolio = ({ onShowMore }) => {
   const portfolioItems = [
+    
+    {
+      image: "./images/accesself.png",
+      title: "Access Elf",
+      description: "Track and monitor if your app is being used, track site and page views.",
+      projectUrl: "https://accesself.co.za",
+      moreContent: "Access Tracker is a powerful analytics platform designed to help developers understand how users interact with their applications. Our mission is to provide simple yet powerful tracking tools that give you actionable insights.",
+      commercial: true
+    },
     {
       image: "./images/juzt-dance.jpg",
       title: "Juzt Dance",
       description: "Bringing the dance community together to celebrate movement and art.",
       projectUrl: "https://demo.juzt.dance",
       moreContent: "Juzt Dance is a platform that unites the dance community, offering tools and resources to enhance the art of dance.<br/>Selling tickets for events, implementing loyalty systems for venues."
+    },
+    {
+      image: "./images/currencyelf.png",
+      title: "Currency Elf",
+      description: "Simple currency exchange calculator.",
+      projectUrl: "https://cairns.co.za/exchange/",
+      moreContent: "Smart Currency Conversion Made Simple. Convert currencies instantly, save your favorites, and access them anytime"
     },
     {
       image: "./images/workflowcanvas.jpg",

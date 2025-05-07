@@ -9,11 +9,32 @@ const PortfolioCard = ({
   projectUrl, 
   githubUrl, 
   onShowMore, 
-  moreContent 
+  moreContent,
+  commercial = false 
 }) => {
   return (
     <Col md={6} lg={4}>
-      <Card className="h-100">
+      <Card className="h-100 position-relative">
+        {commercial && (
+          <span
+            style={{
+              position: "absolute",
+              top: "35px",
+              left: "70px",
+              background: "#ffc107",
+              color: "#212529",
+              padding: "0.35em 0.75em",
+              borderRadius: "0.5em",
+              fontWeight: "bold",
+              fontSize: "0.9em",
+              zIndex: 2,
+              boxShadow: "0 2px 6px rgba(0,0,0,0.15)",
+              transform: "rotate(-17deg)"
+            }}
+          >
+            Commercial
+          </span>
+        )}
         <Card.Img
           variant="top"
           src={image}
